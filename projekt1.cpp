@@ -9,7 +9,7 @@ int main()
     bool stan=0;
     cout << "Proste przedsiebiorstwo by Piotr Marciniak\nKomendy:\nlp - Wydrukuj liste pracownikow\nzinz - zatrudnij inzyniera (pensja: 3000)" << endl;
     cout << "zmag - zatrudnij magazyniera (pensja: 1000)\nzmkt - zatrudnij marketera(pensja: 2000)\nzrob - zatrudnij robotnika (pensja: 1000)\nkred - wez kredyt" << endl;
-    cout << "stan - wyswietl stan firmy"<<"\nsk - wyswietl pozyczki"<<"\nkt - zakoncz ture\n" << endl;
+    cout << "stan - wyswietl stan firmy\nsk - wyswietl pozyczki\nkt - zakoncz ture\nend - zakoncz gre\n" << endl;
     cout << "Budzet poczatkowy: 10000\nWartosc firmy wymagana do wygrania: 100000\nLimit czasowy: 120 tur\nWartosc firmy obliczana jest na przychodu z 3 ostatnich dni" << endl;
     while (stan==0) {
         stan=game.akcja();

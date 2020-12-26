@@ -1,4 +1,9 @@
 #pragma once
+
+//
+// Created by jgalecki on 13.11.2020.
+//
+
 #ifndef P1_CPP_LAB_RANDOMNAMEGENERATOR_HPP
 #define P1_CPP_LAB_RANDOMNAMEGENERATOR_HPP
 
